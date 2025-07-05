@@ -1,1 +1,1 @@
-# Groq-based-Chatbot-using-LangChain-Streamlit
+# ollama-chatbot-langchain-streamlit

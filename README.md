@@ -112,13 +112,12 @@ LANGCHAIN_API_KEY=your_langsmith_api_key
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Made with ❤️ by [Kartik Nimhan](https://github.com/KartikNimhan)
 
 ---
-
-## 📜 License
+ 📜 License
 
 This project is licensed under the **MIT License**.
 

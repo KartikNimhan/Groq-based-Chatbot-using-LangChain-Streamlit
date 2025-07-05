@@ -1,5 +1,3 @@
-Here's a **cleaned-up and well-formatted version** of your `README.md` for the **Q\&A Chatbot with Ollama, LangChain & Streamlit** project:
-
 ---
 
 # 🤖 Q\&A Chatbot with Ollama, LangChain & Streamlit
@@ -139,4 +137,3 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Let me know if you'd like this version saved into your project automatically or want help adding badges and a logo!

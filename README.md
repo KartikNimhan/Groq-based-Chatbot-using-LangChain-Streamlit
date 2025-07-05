@@ -1,16 +1,17 @@
 ---
-
-# 🤖 Q\&A Chatbot with Ollama, LangChain & Streamlit
+# 🤖 Q&A Chatbot with Ollama, LangChain &amp; Streamlit
+---
 
 This project is an AI-powered chatbot built using:
 
-* 🧠 **Ollama** – Run open-source LLMs like Mistral or Gemma locally.
-* 🔗 **LangChain** – Manage prompt templates and model interactions.
-* 🌐 **Streamlit** – Build a fast and interactive user interface.
+* 🧠 **Ollama** – Run open-source LLMs like Mistral or Gemma locally.  
+* 🔗 **LangChain** – Manage prompt templates and model interactions.  
+* 🌐 **Streamlit** – Build a fast and interactive user interface.  
 
 It allows users to ask any question and receive intelligent responses from local language models.
 
 ---
+
 
 ## 🚀 Features
 

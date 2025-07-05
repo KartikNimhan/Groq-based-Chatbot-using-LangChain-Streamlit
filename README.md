@@ -110,7 +110,7 @@ LANGCHAIN_API_KEY=your_langsmith_api_key
 
 
 ```
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/322589fd-d3f0-46f6-93c8-d6c3482737cf" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fa5e7172-1e8b-4337-bc44-b17f2f978474" />
 
 
 ```

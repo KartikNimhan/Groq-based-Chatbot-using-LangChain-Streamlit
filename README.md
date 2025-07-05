@@ -1,60 +1,64 @@
-# 🤖 Q&A Chatbot with Ollama, LangChain & Streamlit
+Here's a **cleaned-up and well-formatted version** of your `README.md` for the **Q\&A Chatbot with Ollama, LangChain & Streamlit** project:
 
-This project is an **AI-powered chatbot** built using:
+---
 
-- 🧠 **Ollama** – for running open-source large language models locally  
-- 🔗 **LangChain** – for chaining prompts and managing LLM interactions  
-- 🌐 **Streamlit** – for building a fast, interactive UI
+# 🤖 Q\&A Chatbot with Ollama, LangChain & Streamlit
 
-It enables users to ask any question and get smart, conversational responses using models like `mistral` and `gemma`.
+This project is an AI-powered chatbot built using:
+
+* 🧠 **Ollama** – Run open-source LLMs like Mistral or Gemma locally.
+* 🔗 **LangChain** – Manage prompt templates and model interactions.
+* 🌐 **Streamlit** – Build a fast and interactive user interface.
+
+It allows users to ask any question and receive intelligent responses from local language models.
 
 ---
 
 ## 🚀 Features
 
-- Chat interface with local LLMs via [Ollama](https://ollama.com/)
-- Streamlit-powered frontend for simple interaction
-- Easily switch between models (e.g., `mistral`, `gemma`)
-- Adjustable response temperature and character length
-- LangChain-based prompt templating and chaining
+* Chat interface using local LLMs via **Ollama**
+* Clean UI with **Streamlit**
+* Model switcher for **Mistral**, **Gemma**, and more
+* Adjustable **temperature** and **response length**
+* Modular architecture using **LangChain**'s chaining and prompt templating
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer        | Tool          |
-|--------------|---------------|
-| LLM Runtime  | Ollama        |
-| LLM Chaining | LangChain     |
-| Frontend UI  | Streamlit     |
+| Layer          | Tool           |
+| -------------- | -------------- |
+| LLM Runtime    | Ollama         |
+| LLM Chaining   | LangChain      |
+| Frontend UI    | Streamlit      |
 | Prompt Parsing | LangChain Core |
 
 ---
-````markdown
+
 ## 📦 Installation
 
-1. Clone the repo:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/KartikNimhan/QA-Chatbot-with-Ollama-LangChain-Streamlit.git
 cd QA-Chatbot-with-Ollama-LangChain-Streamlit
-````
+```
 
-2. **Install dependencies:**
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Start Ollama locally:**
+### 3. Start Ollama Locally
 
-Make sure Ollama is installed and running.
+Make sure [Ollama](https://ollama.com) is installed and running:
 
 ```bash
 ollama run mistral
 ```
 
-You can pull any supported model like:
+You can also pull additional models like:
 
 ```bash
 ollama pull gemma:2b
@@ -64,23 +68,24 @@ ollama pull gemma:2b
 
 ## 🧠 Supported Models
 
-You can select these models from the sidebar:
+You can select these models from the sidebar in the app:
 
 * `mistral`
 * `gemma:2b`
 
-> ✅ You can add more Ollama-supported models easily by updating the `selectbox()`.
+✅ You can add more [Ollama-supported models](https://ollama.com/library) by editing the `selectbox()` in the code.
 
 ---
 
 ## 🛠 Running the App
 
+Start the Streamlit app:
+
 ```bash
 streamlit run app.py
 ```
 
-Then go to:
-[http://localhost:8501](http://localhost:8501)
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
@@ -88,17 +93,19 @@ Then go to:
 
 ```
 .
-├── app.py
-├── .env
-├── requirements.txt
-└── README.md
+├── app.py              # Main Streamlit app
+├── .env                # Optional environment variables
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
 ```
 
 ---
 
-## 📌 Environment Variables (Optional)
+## 🔐 Environment Variables (Optional)
 
-If you want to enable LangSmith tracking:
+If you're using [LangSmith](https://www.langchain.com/langsmith) for tracing:
+
+Create a `.env` file:
 
 ```env
 LANGCHAIN_API_KEY=your_langsmith_api_key
@@ -106,19 +113,30 @@ LANGCHAIN_API_KEY=your_langsmith_api_key
 
 ---
 
+## 🖼️ Screenshots
 
+<details>
+<summary>Click to expand</summary>
 
-```
+### Chatbot Interface Example
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fa5e7172-1e8b-4337-bc44-b17f2f978474" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1739e9a6-93bc-43b9-9bef-514c76283328" />
+
+</details>
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Made with ❤️ by [Kartik Nimhan](https://github.com/KartikNimhan)
 
 ---
- 📜 License
+
+## 📜 License
 
 This project is licensed under the **MIT License**.
 
-```
+---
+
+Let me know if you'd like this version saved into your project automatically or want help adding badges and a logo!

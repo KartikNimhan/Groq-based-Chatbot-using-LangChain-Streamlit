@@ -33,11 +33,11 @@ It enables users to ask any question and get smart, conversational responses usi
 ````markdown
 ## 📦 Installation
 
-1. **Clone the repo:**
+1. Clone the repo:
 
 ```bash
 git clone https://github.com/KartikNimhan/QA-Chatbot-with-Ollama-LangChain-Streamlit.git
-cd groq-chatbot-langchain-streamlit
+cd QA-Chatbot-with-Ollama-LangChain-Streamlit
 ````
 
 2. **Install dependencies:**

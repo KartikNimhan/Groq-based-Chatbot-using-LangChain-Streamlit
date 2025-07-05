@@ -106,11 +106,6 @@ LANGCHAIN_API_KEY=your_langsmith_api_key
 
 ---
 
-## 📸 Preview
-
-
-```
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fa5e7172-1e8b-4337-bc44-b17f2f978474" />
 
 
 ```

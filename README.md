@@ -36,7 +36,7 @@ It enables users to ask any question and get smart, conversational responses usi
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/KartikNimhan/groq-chatbot-langchain-streamlit.git
+git clone https://github.com/KartikNimhan/QA-Chatbot-with-Ollama-LangChain-Streamlit.git
 cd groq-chatbot-langchain-streamlit
 ````
 

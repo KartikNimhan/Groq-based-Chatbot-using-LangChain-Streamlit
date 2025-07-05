@@ -129,8 +129,3 @@ This project is licensed under the **MIT License**.
 ```
 
 ---
-
-### ✅ Next Step?
-
-If you'd like, I can also help generate your `requirements.txt` or the `preview.png` layout for the Streamlit app UI. Just let me know!
-```
